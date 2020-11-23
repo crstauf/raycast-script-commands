@@ -10,7 +10,6 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
-- [ Advanced](#_advanced)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -29,17 +28,6 @@ This repository contains sample commands and documentation to write your own one
 - [Navigation](#navigation)
 - [System](#system)
 - [Web Searches](#web-searches)
-
-##  Advanced
-
-| Icon | Title | Description | Author |
-| ---- | ----- | ----------- | ------ |
-| 🌐 | [Connection Status](_advanced/is-online.sh) | Check if able to access the Internet. | [Caleb Stauffer](https://github.com/crstauf) |
-|  | [Create Image of Clipboard Contents](_advanced/carbon-now.sh) | Create beautiful image of clipboard contents (typically code). | [Caleb Stauffer](https://github.com/crstauf) |
-|  | [Download URL](_advanced/download-url.sh) | Download URL to Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🌐 | [Is Up](_advanced/is-up.template.sh) | Check if specified website is up. | [Caleb Stauffer](https://github.com/crstauf) |
-| 🖥️ | [Set Screens Preset](_advanced/set-screens-preset.template.sh) | Apply preset screen settings. | [Caleb Stauffer](https://github.com/crstauf) |
-|  | [Set scripts executable](_advanced/set-scripts-executable.template.sh) | Set scripts within specified directories as executable. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Bookmarks
 
@@ -203,6 +191,8 @@ This repository contains sample commands and documentation to write your own one
 | 🗣 | [Define Word](system/define-word.swift) | Define a word using the built-in dictionary/dicionaries. | [Jesse Claven](https://github.com/jesse-c) |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
+| 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
