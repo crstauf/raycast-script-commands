@@ -1,3 +1,0 @@
-[submodule "commands/_advanced"]
-	path = commands/_advanced
-	url = git@github.com:crstauf/raycast-script-commands-advanced.git
