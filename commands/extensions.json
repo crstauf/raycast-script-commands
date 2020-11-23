@@ -61,6 +61,24 @@
             }
           ],
           "currentDirectoryPath" : null,
+          "description" : "Convert human-readable date to timestamp epoch.",
+          "filename" : "human-date-to-epoch.sh",
+          "icon" : "⏱",
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "Conversions",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Convert Human-Readable Date To Epoch"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Siyuan Zhang",
+              "url" : "https:\/\/github.com\/kastnerorz"
+            }
+          ],
+          "currentDirectoryPath" : null,
           "description" : "Convert epoch to human-readable date.",
           "filename" : "epoch-to-human-date.sh",
           "icon" : "⏱",
@@ -1863,5 +1881,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T17:10:31Z"
+  "updatedAt" : "2020-11-23T17:14:08Z"
 }
