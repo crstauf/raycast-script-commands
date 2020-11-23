@@ -1,5 +1,7 @@
 # Raycast Script Commands
 
+**🎉 Includes my ["advanced" commands](tree/master/commands#advanced)! 🎉**
+
 [Raycast](https://raycast.com) lets you control your tools with a few keystrokes and Script Commands makes it possible to execute scripts from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows.
 
 ![Demo](https://github.com/raycast/script-commands/blob/master/screenshots/demo.gif?raw=true)
