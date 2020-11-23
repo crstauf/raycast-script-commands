@@ -152,6 +152,120 @@
       ]
     },
     {
+      "name" : " Advanced",
+      "path" : "_advanced",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Apply preset screen settings.",
+          "filename" : "set-screens-preset.template.sh",
+          "icon" : "🖥️",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Set Screens Preset"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Set scripts within specified directories as executable.",
+          "filename" : "set-scripts-executable.template.sh",
+          "icon" : null,
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Script Commands",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Set scripts executable"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if specified website is up.",
+          "filename" : "is-up.template.sh",
+          "icon" : "🌐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : "10m",
+          "schemaVersion" : 1,
+          "title" : "Is Up"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : "~\/Desktop",
+          "description" : "Create beautiful image of clipboard contents (typically code).",
+          "filename" : "carbon-now.sh",
+          "icon" : null,
+          "mode" : "silent",
+          "needsConfirmation" : false,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Create Image of Clipboard Contents"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : "~\/Desktop",
+          "description" : "Download URL to Desktop.",
+          "filename" : "download-url.sh",
+          "icon" : null,
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Download URL"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Check if able to access the Internet.",
+          "filename" : "is-online.sh",
+          "icon" : "🌐",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Connection Status"
+        }
+      ]
+    },
+    {
       "name" : "Navigation",
       "path" : "navigation",
       "scriptCommands" : [
@@ -1749,5 +1863,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-23T16:57:40Z"
+  "updatedAt" : "2020-11-23T17:10:31Z"
 }
