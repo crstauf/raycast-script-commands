@@ -10,6 +10,7 @@ This repository contains sample commands and documentation to write your own one
 
 ### Categories
 
+- [ Advanced](#_advanced)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -28,6 +29,17 @@ This repository contains sample commands and documentation to write your own one
 - [Navigation](#navigation)
 - [System](#system)
 - [Web Searches](#web-searches)
+
+##  Advanced
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 🌐 | [Connection Status](_advanced/is-online.sh) | Check if able to access the Internet. | [Caleb Stauffer](https://github.com/crstauf) |
+|  | [Create Image of Clipboard Contents](_advanced/carbon-now.sh) | Create beautiful image of clipboard contents (typically code). | [Caleb Stauffer](https://github.com/crstauf) |
+|  | [Download URL](_advanced/download-url.sh) | Download URL to Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Is Up](_advanced/is-up.template.sh) | Check if specified website is up. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🖥️ | [Set Screens Preset](_advanced/set-screens-preset.template.sh) | Apply preset screen settings. | [Caleb Stauffer](https://github.com/crstauf) |
+|  | [Set scripts executable](_advanced/set-scripts-executable.template.sh) | Set scripts within specified directories as executable. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Bookmarks
 
@@ -80,7 +92,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
-| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
