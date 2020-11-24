@@ -235,6 +235,24 @@
             }
           ],
           "currentDirectoryPath" : "~\/Desktop",
+          "description" : "Run [Pa11y](https:\/\/github.com\/pa11y\/pa11y) web accessibility tool on specified path or URL.",
+          "filename" : "pa11y.sh",
+          "icon" : "images\/pa11y-logo.png",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Developer Utilities",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Run Pa11y"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : "~\/Desktop",
           "description" : "Create beautiful image of clipboard contents (typically code).",
           "filename" : "carbon-now.sh",
           "icon" : null,
@@ -1899,5 +1917,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-24T14:11:38Z"
+  "updatedAt" : "2020-11-24T14:15:33Z"
 }
