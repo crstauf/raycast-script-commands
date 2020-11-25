@@ -25,6 +25,7 @@ This repository contains sample commands and documentation to write your own one
 - [Media](#media)
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
+  - [Cmus](#cmus)
   - [Spotify](#spotify)
 - [Navigation](#navigation)
 - [System](#system)
@@ -166,6 +167,17 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Play](media/apple-tv/apple-tv-play.applescript) | Play TV | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/apple-tv/images/apple-tv-logo.png?raw=true" width="20" height="20"> | [Stop](media/apple-tv/apple-tv-stop.applescript) | Stop TV | [Caleb Stauffer](https://github.com/crstauf) |
 
+#### Cmus
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| ℹ️ | [Current Track](media/cmus/track-info.sh) | Shows info on the current track if cmus is running | [mmerle](https://github.com/mmerle) |
+| ⏩ | [Next Track](media/cmus/next-track.sh) | Goes forward a track if cmus is running | [mmerle](https://github.com/mmerle) |
+| ⏪ | [Previous Track](media/cmus/previous-track.sh) | Goes back a track if cmus is running | [mmerle](https://github.com/mmerle) |
+| ⏯ | [Toggle Play/Pause](media/cmus/play-pause.sh) | Toggles the play/pause state if cmus is running | [mmerle](https://github.com/mmerle) |
+| 🔁 | [Toggle Repeat](media/cmus/toggle-repeat.sh) | Toggles the repeat option if cmus is running | [mmerle](https://github.com/mmerle) |
+| 🔀 | [Toggle Shuffle](media/cmus/toggle-shuffle.sh) | Toggles the shuffle option if cmus is running | [mmerle](https://github.com/mmerle) |
+
 #### Spotify
 
 | Icon | Title | Description | Author |
@@ -210,6 +222,7 @@ This repository contains sample commands and documentation to write your own one
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
 | 🌀 | [Screen Saver](system/screensaver.applescript) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
