@@ -1,17 +1,16 @@
 #!/bin/bash
 
-# Required parameters:
-# @raycast.schemaVersion 1
 # @raycast.title Hex to RGBA
-# @raycast.mode silent
-# @raycast.packageName Conversions
-
-# Optional parameters:
 # @raycast.author Caleb Stauffer
 # @raycast.authorURL https://github.com/crstauf
-# @raycast.description Convert HEX color values to RGBA values.
+# @raycast.description Convert hexadecimal color value to RGBA value.
+
 # @raycast.icon 🎨
-# @raycast.argument1 { "type": "text", "placeholder": "HEX" }
+# @raycast.mode silent
+# @raycast.packageName Conversions
+# @raycast.schemaVersion 1
+
+# @raycast.argument1 { "type": "text", "placeholder": "#RRGGBB" }
 
 hex=$1
 first="${hex:0:1}"
