@@ -25,7 +25,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Convert HEX color values to RGBA values.",
+          "description" : "Convert hexadecimal color value to RGBA value.",
           "filename" : "hex-to-rgba.sh",
           "icon" : "🎨",
           "mode" : "silent",
@@ -43,7 +43,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Convert HEX color values to RGB values.",
+          "description" : "Convert hexadecimal color value to RGB value.",
           "filename" : "hex-to-rgb.sh",
           "icon" : "🎨",
           "mode" : "silent",
@@ -139,7 +139,7 @@
             }
           ],
           "currentDirectoryPath" : "~\/Desktop",
-          "description" : "Takes a screenshot of the entered URL and saves it to the Desktop.",
+          "description" : "Takes screenshots of the entered URL using [`pageres`](https:\/\/github.com\/sindresorhus\/pageres) and saves it to the Desktop.",
           "filename" : "website-screenshots.sh",
           "icon" : "🖼️",
           "mode" : "compact",
@@ -526,7 +526,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Get current weather report from wttr.in.",
+          "description" : "Get current weather report from [wttr.in](https:\/\/wttr.in\/).",
           "filename" : "current-weather.sh",
           "icon" : "🌦️",
           "mode" : "inline",
@@ -562,7 +562,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Test download and upload connection speed",
+          "description" : "Test download and upload connection speed using [Speedtest](https:\/\/www.speedtest.net\/apps\/cli).",
           "filename" : "speedtest.sh",
           "icon" : "images\/speedtest-logo.png",
           "mode" : "inline",
@@ -623,7 +623,7 @@
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "System",
-          "refreshTime" : "1m",
+          "refreshTime" : "3m",
           "schemaVersion" : 1,
           "title" : "Largest CPU Process"
         },
@@ -648,7 +648,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Refresh the current display's wallpaper",
+          "description" : "Refresh the current display's wallpaper.",
           "filename" : "wallpaper-refresh.applescript",
           "icon" : "🖼️",
           "mode" : "silent",
@@ -666,7 +666,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+          "description" : "Turn on \"do not disturb\" mode. Does [not work on Big Sur](https:\/\/github.com\/sindresorhus\/do-not-disturb-cli\/issues\/2).",
           "filename" : "dnd-on.sh",
           "icon" : "😴",
           "mode" : "silent",
@@ -783,7 +783,7 @@
           "mode" : "inline",
           "needsConfirmation" : null,
           "packageName" : "System",
-          "refreshTime" : "1m",
+          "refreshTime" : "3m",
           "schemaVersion" : 1,
           "title" : "Largest RAM Process"
         },
@@ -883,7 +883,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Uses sindresorhus\/do-not-disturb-cli to turn on DND.",
+          "description" : "Turn off \"do not disturb\" mode. Does [not work on Big Sur](https:\/\/github.com\/sindresorhus\/do-not-disturb-cli\/issues\/2).",
           "filename" : "dnd-off.sh",
           "icon" : "😴",
           "mode" : "silent",
@@ -1125,7 +1125,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Save URL to Wayback Machine",
+          "description" : "Save URL to [Wayback Machine](https:\/\/web.archive.org\/).",
           "filename" : "wayback-machine-save.sh",
           "icon" : "images\/ia-logo.jpg",
           "mode" : "compact",
@@ -1193,7 +1193,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Run a PageSpeed Insights analysis on desktop of URL.",
+              "description" : "Run a [PageSpeed Insights](https:\/\/developers.google.com\/speed\/pagespeed\/insights\/) analysis on desktop of URL.",
               "filename" : "google-psi-desktop.sh",
               "icon" : "images\/google-psi-logo.png",
               "mode" : "fullOutput",
@@ -1211,7 +1211,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Run a PageSpeed Insights analysis on mobile of URL.",
+              "description" : "Run a [PageSpeed Insights](https:\/\/developers.google.com\/speed\/pagespeed\/insights\/) analysis on mobile of URL.",
               "filename" : "google-psi-mobile.sh",
               "icon" : "images\/google-psi-logo.png",
               "mode" : "fullOutput",
@@ -1229,7 +1229,7 @@
                 }
               ],
               "currentDirectoryPath" : "~\/Desktop",
-              "description" : "Open a Lighthouse report of URL.",
+              "description" : "Open a [Lighthouse](https:\/\/developers.google.com\/web\/tools\/lighthouse\/) report of URL.",
               "filename" : "google-lighthouse.sh",
               "icon" : "images\/google-lighthouse-logo.png",
               "mode" : "silent",
@@ -1289,7 +1289,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Number of unread GitHub notifications.",
+              "description" : "Display (detailed) number of unread GitHub notifications.",
               "filename" : "github-unread-notifications.template.sh",
               "icon" : "images\/github-logo.png",
               "mode" : "inline",
@@ -1326,7 +1326,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Get IPv6 address of URL",
+              "description" : "Get IPv6 address of URL.",
               "filename" : "get-url-ip-v6.sh",
               "icon" : "🌐",
               "mode" : "compact",
@@ -1357,7 +1357,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Get IPv4 address of URL",
+              "description" : "Get IPv4 address of URL.",
               "filename" : "get-url-ip-v4.sh",
               "icon" : "🌐",
               "mode" : "compact",
@@ -1409,7 +1409,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Use xkcdpass to create a passphrase.",
+          "description" : "Use [xkcdpass](https:\/\/github.com\/redacted\/XKCD-password-generator) to create a passphrase.",
           "filename" : "xkcdpass.sh",
           "icon" : "🔐",
           "mode" : "silent",
@@ -1450,6 +1450,24 @@
             {
               "authors" : [
                 {
+                  "name" : "Sam Ching",
+                  "url" : "https:\/\/github.com\/samching"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Clear DND Status in Slack",
+              "filename" : "clear-slack-DND-status.sh",
+              "icon" : null,
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Clear Slack DND"
+            },
+            {
+              "authors" : [
+                {
                   "name" : "Thomas Paul Mann",
                   "url" : "https:\/\/github.com\/thomaspaulmann"
                 }
@@ -1482,6 +1500,24 @@
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Set Status to Coffee"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Sam Ching",
+                  "url" : "https:\/\/github.com\/samching"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Set your DND status in Slack",
+              "filename" : "set-slack-DND-status.sh",
+              "icon" : null,
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Slack",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set DND Status"
             }
           ]
         },
@@ -1497,7 +1533,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Show Cloudup popup",
+              "description" : "Show Cloudup popup.",
               "filename" : "cloudup-show.sh",
               "icon" : "images\/cloudup-logo.png",
               "mode" : "silent",
@@ -1515,7 +1551,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Upload path or URL in clipboard to Cloudup",
+              "description" : "Upload path or URL in clipboard to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-upload.sh",
               "icon" : "images\/cloudup-logo.png",
               "mode" : "silent",
@@ -1533,7 +1569,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Open file dialog and upload to Cloudup",
+              "description" : "Open file dialog and upload to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-pick.sh",
               "icon" : "images\/cloudup-logo.png",
               "mode" : "silent",
@@ -1551,7 +1587,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Upload clipboard contents to Cloudup",
+              "description" : "Upload clipboard contents to [Cloudup](https:\/\/cloudup.com\/).",
               "filename" : "cloudup-paste.sh",
               "icon" : "images\/cloudup-logo.png",
               "mode" : "silent",
@@ -1575,7 +1611,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Search related emojis to input.",
+              "description" : "Search for emojis related to input.",
               "filename" : "emojis-search.sh",
               "icon" : "📙",
               "mode" : "fullOutput",
@@ -1637,7 +1673,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Search cdnjs.com for library.",
+          "description" : "Search [cdnjs.com](https:\/\/cdnjs.com\/) for library.",
           "filename" : "search-cdnjs.sh",
           "icon" : "images\/cloudflare-logo.png",
           "mode" : "silent",
@@ -1664,6 +1700,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Giphy search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search Netflix.",
+          "filename" : "search-netflix.sh",
+          "icon" : "images\/netflix-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search Netflix"
         },
         {
           "authors" : [
@@ -1833,7 +1887,7 @@
             }
           ],
           "currentDirectoryPath" : null,
-          "description" : "Search GitHub.",
+          "description" : "Search [GitHub](https:\/\/github.com).",
           "filename" : "search-github.sh",
           "icon" : "images\/github-logo.png",
           "mode" : "silent",
@@ -1891,6 +1945,19 @@
           "authors" : null,
           "currentDirectoryPath" : null,
           "description" : null,
+          "filename" : "crunchbase.sh",
+          "icon" : "images\/crunchbase.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Crunchbase"
+        },
+        {
+          "authors" : null,
+          "currentDirectoryPath" : null,
+          "description" : null,
           "filename" : "google-search.sh",
           "icon" : "images\/google.png",
           "mode" : "silent",
@@ -1939,7 +2006,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Stop Music",
+              "description" : "Stop Music.",
               "filename" : "apple-music-stop.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -1957,7 +2024,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Toggle shuffle setting in Music",
+              "description" : "Toggle shuffle setting in Music.",
               "filename" : "apple-music-shuffle.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -1975,7 +2042,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Toggle repeat settling in Music",
+              "description" : "Toggle repeat setting in Music.",
               "filename" : "apple-music-repeat.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -1993,7 +2060,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Previous track in Music",
+              "description" : "Previous track in Music.",
               "filename" : "apple-music-previous.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -2001,7 +2068,7 @@
               "packageName" : "Music",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Previous"
+              "title" : "Previous Track"
             },
             {
               "authors" : [
@@ -2011,7 +2078,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Pause Music",
+              "description" : "Pause Music.",
               "filename" : "apple-music-pause.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -2029,7 +2096,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Play Music",
+              "description" : "Play Music.",
               "filename" : "apple-music-play.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -2047,7 +2114,7 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Next track in Music",
+              "description" : "Next track in Music.",
               "filename" : "apple-music-next.applescript",
               "icon" : "images\/apple-music-logo.png",
               "mode" : "silent",
@@ -2055,7 +2122,7 @@
               "packageName" : "Music",
               "refreshTime" : null,
               "schemaVersion" : 1,
-              "title" : "Next"
+              "title" : "Next Track"
             }
           ]
         },
@@ -2235,6 +2302,24 @@
               "title" : "Play"
             },
             {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show currently playing track in Spotify.",
+              "filename" : "spotify-current-track.applescript",
+              "icon" : "images\/spotify-logo.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Spotify",
+              "refreshTime" : "30s",
+              "schemaVersion" : 1,
+              "title" : "Current Track"
+            },
+            {
               "authors" : null,
               "currentDirectoryPath" : null,
               "description" : null,
@@ -2274,12 +2359,12 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Play TV",
+              "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "Apple TV",
+              "packageName" : "TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Play"
@@ -2292,12 +2377,12 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Pause TV",
+              "description" : "Pause TV.",
               "filename" : "apple-tv-pause.applescript",
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "Apple TV",
+              "packageName" : "TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Pause"
@@ -2310,12 +2395,12 @@
                 }
               ],
               "currentDirectoryPath" : null,
-              "description" : "Stop TV",
+              "description" : "Stop TV.",
               "filename" : "apple-tv-stop.applescript",
               "icon" : "images\/apple-tv-logo.png",
               "mode" : "silent",
               "needsConfirmation" : null,
-              "packageName" : "Apple TV",
+              "packageName" : "TV",
               "refreshTime" : null,
               "schemaVersion" : 1,
               "title" : "Stop"
@@ -2325,5 +2410,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-30T15:41:43Z"
+  "updatedAt" : "2020-11-30T15:46:17Z"
 }
