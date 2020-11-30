@@ -40,6 +40,7 @@ This repository contains sample commands and documentation to write your own one
 |  | [Create Image of Clipboard Contents](_advanced/carbon-now.sh) | Create beautiful image of clipboard contents (typically code). | [Caleb Stauffer](https://github.com/crstauf) |
 |  | [Download URL](_advanced/download-url.sh) | Download URL to Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🌐 | [Is Up](_advanced/is-up.template.sh) | Check if specified website is up. | [Caleb Stauffer](https://github.com/crstauf) |
+|  | [List Refreshing Scripts](_advanced/list-refreshing-scripts.sh) | List Script Commands that have a refresh time. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/_advanced/images/pa11y-logo.png?raw=true" width="20" height="20"> | [Run Pa11y](_advanced/pa11y.sh) | Run [Pa11y](https://github.com/pa11y/pa11y) web accessibility tool on specified path or URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖥️ | [Set Screens Preset](_advanced/set-screens-preset.template.sh) | Apply preset screen settings. | [Caleb Stauffer](https://github.com/crstauf) |
 |  | [Set scripts executable](_advanced/set-scripts-executable.template.sh) | Set scripts within specified directories as executable. | [Caleb Stauffer](https://github.com/crstauf) |

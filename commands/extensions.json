@@ -270,6 +270,24 @@
               "url" : "https:\/\/github.com\/crstauf"
             }
           ],
+          "currentDirectoryPath" : "~\/Library\/Raycast Script Commands\/_enabled-commands",
+          "description" : "List Script Commands that have a refresh time.",
+          "filename" : "list-refreshing-scripts.sh",
+          "icon" : null,
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "List Refreshing Scripts",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "List Refreshing Scripts"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
           "currentDirectoryPath" : "~\/Desktop",
           "description" : "Download URL to Desktop.",
           "filename" : "download-url.sh",
@@ -2307,5 +2325,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-11-28T16:15:30Z"
+  "updatedAt" : "2020-11-30T15:41:43Z"
 }
