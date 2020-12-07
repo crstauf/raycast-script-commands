@@ -1858,6 +1858,30 @@
               "title" : "Search and Copy First Related Emoji"
             }
           ]
+        },
+        {
+          "name" : "Gmail",
+          "path" : "gmail",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Open gmail.com in the default browser",
+              "filename" : "google-gmail.sh",
+              "icon" : "images\/google-gmail-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Google",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Gmail"
+            }
+          ]
         }
       ]
     },
@@ -2105,6 +2129,24 @@
         {
           "authors" : [
             {
+              "name" : "Tanguy Le Stradic",
+              "url" : "https:\/\/github.com\/tanguyls"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search files in Figma",
+          "filename" : "figma.sh",
+          "icon" : "images\/figma.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Figma"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -2256,6 +2298,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Wayback Machine Search"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Jesse Traynham",
+              "url" : "https:\/\/github.com\/traynham"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in MDN (Mozilla) Docs by topic",
+          "filename" : "mdn.sh",
+          "icon" : "images\/mdn_light.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in MDN (Mozilla) Docs by Topic"
         }
       ],
       "subGroups" : [
@@ -2780,5 +2840,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T15:46:25Z"
+  "updatedAt" : "2020-12-07T22:42:51Z"
 }
