@@ -24,6 +24,7 @@ This repository contains sample commands and documentation to write your own one
 - [Developer Utils](#developer-utils)
   - [Brew](#brew)
   - [Github](#github)
+  - [Gitlab](#gitlab)
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
@@ -171,6 +172,14 @@ This repository contains sample commands and documentation to write your own one
 | ⭐️ | [Repository Statistics](developer-utils/github/github-repository-stars.template.rb) | Show statistics of your GitHub repository. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/github/images/github-logo.png?raw=true" width="20" height="20"> | [Unread Notifications](developer-utils/github/github-unread-notifications.template.sh) | Display (detailed) number of unread GitHub notifications. | [Caleb Stauffer](https://github.com/crstauf) |
 
+#### Gitlab
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png?raw=true" width="20" height="20"> | [Issues](developer-utils/gitlab/gitlab-issues.template.py) | Show issues from GitLab | [Michael Aigner](https://github.com/tonka3000) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png?raw=true" width="20" height="20"> | [Merge Requests](developer-utils/gitlab/gitlab-mergerequests.template.py) | Show merge requests from GitLab | [Michael Aigner](https://github.com/tonka3000) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/gitlab/images/gitlab.png?raw=true" width="20" height="20"> | [To-Dos](developer-utils/gitlab/gitlab-todos.template.py) | Show todos from GitLab | [Michael Aigner](https://github.com/tonka3000) |
+
 #### Google
 
 | Icon | Title | Description | Author |
@@ -296,6 +305,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search [GitHub](https://github.com). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mozilla-developer-network.png?raw=true" width="20" height="20"> | [Search MDN (Mozilla Developer Network)](web-searches/mozilla-developer-network.sh) | N/A | [Jon Callahan](https://www.joncallahan.com) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/netflix-logo.png?raw=true" width="20" height="20"> | [Search Netflix](web-searches/search-netflix.sh) | Search Netflix. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/php-logo.png?raw=true" width="20" height="20"> | [Search PHP Docs](web-searches/search-php-docs.sh) | Search [PHP official documentation](https://www.php.net/docs.php). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/unsplash-logo.png?raw=true" width="20" height="20"> | [Search Unsplash](web-searches/search-unsplash.sh) | Search [Unsplash](https://unsplash.com). | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png?raw=true" width="20" height="20"> | [Search WP Engine Installs](web-searches/search-wpengine-installs.sh) | Search [WP Engine](https://wpengine.com) installs. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) |

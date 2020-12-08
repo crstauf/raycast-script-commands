@@ -1280,6 +1280,66 @@
       ],
       "subGroups" : [
         {
+          "name" : "Gitlab",
+          "path" : "gitlab",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show merge requests from GitLab",
+              "filename" : "gitlab-mergerequests.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Merge Requests"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show todos from GitLab",
+              "filename" : "gitlab-todos.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "To-Dos"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Michael Aigner",
+                  "url" : "https:\/\/github.com\/tonka3000"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Show issues from GitLab",
+              "filename" : "gitlab-issues.template.py",
+              "icon" : "images\/gitlab.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "GitLab",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Issues"
+            }
+          ]
+        },
+        {
           "name" : "Google",
           "path" : "google",
           "scriptCommands" : [
@@ -2302,6 +2362,24 @@
         {
           "authors" : [
             {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search [PHP official documentation](https:\/\/www.php.net\/docs.php).",
+          "filename" : "search-php-docs.sh",
+          "icon" : "images\/php-logo.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search PHP Docs"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Jesse Traynham",
               "url" : "https:\/\/github.com\/traynham"
             }
@@ -2840,5 +2918,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-07T22:42:51Z"
+  "updatedAt" : "2020-12-08T14:26:11Z"
 }
