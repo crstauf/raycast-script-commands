@@ -2630,6 +2630,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Set volume in Music.",
+              "filename" : "apple-music-set-volume.applescript",
+              "icon" : "images\/apple-music-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play Music.",
               "filename" : "apple-music-play.applescript",
               "icon" : "images\/apple-music-logo.png",
@@ -2893,6 +2911,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Set volume in TV.",
+              "filename" : "apple-tv-set-volume.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Set Volume"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
               "icon" : "images\/apple-tv-logo.png",
@@ -2944,5 +2980,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-10T20:49:50Z"
+  "updatedAt" : "2020-12-11T01:34:21Z"
 }
