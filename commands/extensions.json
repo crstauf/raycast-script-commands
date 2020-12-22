@@ -679,6 +679,24 @@
         {
           "authors" : [
             {
+              "name" : "Jesse Claven",
+              "url" : "https:\/\/github.com\/jesse-c"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Sample a colour from anywhere on your screen.",
+          "filename" : "sample-colour.swift",
+          "icon" : "🎨",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "System",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Sample Colour"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Caleb Stauffer",
               "url" : "https:\/\/github.com\/crstauf"
             }
@@ -2929,6 +2947,24 @@
                 }
               ],
               "currentDirectoryPath" : null,
+              "description" : "Play specified movie from library in TV.",
+              "filename" : "apple-tv-play-movie.applescript",
+              "icon" : "images\/apple-tv-logo.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "TV",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Play Movie"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Caleb Stauffer",
+                  "url" : "https:\/\/github.com\/crstauf"
+                }
+              ],
+              "currentDirectoryPath" : null,
               "description" : "Play TV.",
               "filename" : "apple-tv-play.applescript",
               "icon" : "images\/apple-tv-logo.png",
@@ -2980,5 +3016,5 @@
       ]
     }
   ],
-  "updatedAt" : "2020-12-11T01:34:21Z"
+  "updatedAt" : "2020-12-22T13:33:07Z"
 }
