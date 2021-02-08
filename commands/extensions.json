@@ -1,6 +1,93 @@
 {
   "groups" : [
     {
+      "name" : "Home",
+      "path" : "home",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Elgato",
+          "path" : "elgato",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Increase brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-increase-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Increase Brightness"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn on Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-on.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn off Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-off.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Decrease brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-decrease-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Decrease Brightness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Conversions",
       "path" : "conversions",
       "scriptCommands" : [
@@ -176,7 +263,7 @@
           ],
           "currentDirectoryPath" : null,
           "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
-          "filename" : "peekalink.sh",
+          "filename" : "peekalink.template.sh",
           "icon" : "images\/peekalink-logo.png",
           "mode" : "fullOutput",
           "needsConfirmation" : null,
@@ -628,6 +715,30 @@
       ]
     },
     {
+      "name" : "Math",
+      "path" : "math",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/pitnikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
+          "filename" : "calculate-growth.sh",
+          "icon" : "📈",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Calculate Growth",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Calculate Growth %"
+        }
+      ]
+    },
+    {
       "name" : "Dashboard",
       "path" : "dashboard",
       "scriptCommands" : [
@@ -684,6 +795,24 @@
           "refreshTime" : "20m",
           "schemaVersion" : 1,
           "title" : "Speedtest"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Clark Dinnison",
+              "url" : "https:\/\/github.com\/cdinnison"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current Ethereum price from CoinGecko.",
+          "filename" : "ethereum-price-usd.sh",
+          "icon" : "images\/ethereum-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Ethereum Price"
         },
         {
           "authors" : [
@@ -4140,5 +4269,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-02-03T15:23:54Z"
+  "updatedAt" : "2021-02-08T18:43:16Z"
 }
